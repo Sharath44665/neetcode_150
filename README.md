@@ -8,3 +8,5 @@
 **Space complexity**: 
 - **Auxillary space**: the extra space used to solve the problem
 - **input space**: space used for storing the input
+
+**Python Time complexity:** https://wiki.python.org/moin/TimeComplexity
