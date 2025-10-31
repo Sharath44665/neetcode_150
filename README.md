@@ -10,3 +10,6 @@
 - **input space**: space used for storing the input
 
 **Python Time complexity:** https://wiki.python.org/moin/TimeComplexity
+
+example1 
+![example1](./img/example1.png)
