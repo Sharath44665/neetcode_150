@@ -48,5 +48,19 @@ def armStrongNumberTwo(num):
 
     print(sum)
 
+
+def checkArmStrongNumberThree(num):
+    # Time complexity: o(logBase 10 (N)), where N is input Number
+    # Space Complexity: o(1)
+    n = num
+    lengthOfDigit = len(str(n))
+    total = 0
+    while n > 0:
+        lastDigit = n%10 
+        total = total + (lastDigit ** lengthOfDigit)
+        n = n//10
+    return total == num
+
 n= 1634
-armStrongNumberTwo(n)
+print(checkArmStrongNumberThree(num=n))
+
