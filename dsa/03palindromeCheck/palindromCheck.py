@@ -1,6 +1,7 @@
 n = 1234
 # n= 12321
-
+# time complexity o(log_base 10 (N)), where N is number
+# Space complexity o(1)
 def palindromCheck(num):
     n = num
     result = 0
