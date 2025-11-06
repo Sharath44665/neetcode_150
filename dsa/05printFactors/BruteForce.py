@@ -1,8 +1,11 @@
 def printFactors(num):
+    # TC = o(N), SC = O(k), where N is the num, k is number factors
     n =1
+    result = []
     while n <= num:
         if (num % n == 0):
-            print(f"{n}", end=" ")
+            result.append(n)
         n += 1
+    return result
 
-printFactors(19)
+print(printFactors(20))
