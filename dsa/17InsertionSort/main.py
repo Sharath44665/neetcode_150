@@ -19,7 +19,7 @@ def insertionSortTwo(arNums):
     for idx in range(1, len(arNums)):
         key = arNums[idx]
         j =  idx -1
-        while j >= -1: # while j >= 0 
+        while j >= -1: 
             if arNums[j] > key:
                 arNums[j+1] =arNums[j]
             if arNums[j] < key:
