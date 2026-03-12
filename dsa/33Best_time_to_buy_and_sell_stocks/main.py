@@ -1,3 +1,25 @@
+class Solution(object):
+    def maxProfit(self, prices):
+        """
+        :type prices: List[int]
+        :rtype: int
+        """
+        minVal = prices[0]
+        maxVal = prices[0]
+        profit = maxVal- minVal
+
+        for val in prices:
+            if val < minVal:
+                minVal = val
+                maxVal = val
+            if val > maxVal:
+                maxVal =val
+            currentProfit = maxVal-minVal
+            if currentProfit > profit:
+                profit = currentProfit
+        return profit
+
+
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         # time: o(N), space: o(1)
