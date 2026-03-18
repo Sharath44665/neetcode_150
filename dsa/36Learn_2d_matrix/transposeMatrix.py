@@ -1,3 +1,21 @@
+def transposeMatrix(matrix):
+    res = []
+
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i])):
+            if i == 0:
+                res.append([])
+            res[j].append(matrix[i][j]) 
+     
+    for i in range(len(res)):
+        for j in range(len(res[i])):
+            print(res[i][j], end=" ")
+        print()
+    
+
+matrix = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
+transposeMatrix(matrix)
+
 def trasnposeSquareMatrix(nums):
     print("before")
     for i in range(len(nums)):
