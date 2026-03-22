@@ -10,6 +10,7 @@ explanation of above code:
 
 ![logic explanation](./img/logic_one_explanation.png)
 
+![logic detailed](./img/3sum_detailed.png)
 ---
 
 logic 2:
